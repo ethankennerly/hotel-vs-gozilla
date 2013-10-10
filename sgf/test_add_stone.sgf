@@ -1,0 +1,104 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-08-23]
+AB[ab][bc][cc][dc]AW[ad][bd][cd][dd][ed]
+C[CAN YOU FINISH OUR FARM'S WALL?
+
+{
+    'tutor_mc': {'currentLabel': 'score'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'show'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'score_rule'},
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+PL[B]
+(;B[ec]C[THE WALL KEEPS THE DRAGON OUT.];W[ac]
+C[UH OH!  THE DRAGON FOUND A GAP IN OUR WALL.]
+(;B[bb]C[YOU SEALED THE GAP.];W[]
+C[OUR FARM IS BIGGER, SO THE DRAGON MAKES PEACE.])
+(;B[ba]C[YOU PROTECT THE GAP AND THE CORNER.];W[]
+C[OUR FARM IS BIGGER, SO THE DRAGON MAKES PEACE.])
+(;B[]
+C[A DRAGON WILL BREAK IN AND MAY EAT EVERYTHING!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[ac]
+C[ON THE OTHER END, THE DRAGON WILL BREAK IN.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[bb]
+C[THE DRAGON WILL BREAK IN ON THE OTHER END.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ae]
+C[THE DRAGON WILL BREAK INTO OUR FARM!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[be]
+C[THE DRAGON WILL BREAK INTO OUR FARM!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ce]
+C[THE DRAGON WILL BREAK INTO OUR FARM!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[de]
+C[THE DRAGON WILL BREAK INTO OUR FARM!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[ee]
+C[THE DRAGON WILL BREAK INTO OUR FARM!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[]
+C[THE DRAGON WILL BREAK IN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

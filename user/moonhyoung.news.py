@@ -1,0 +1,10 @@
+{'level_mc': {'_txt': {'text': '16'},
+              'currentLabel': 'up',
+              'progress_mc': {'currentLabel': '_0'}},
+ 'lobby_mc': {'_00_mc': {'capture_3_3_mc': {'score_txt': {'text': '$2'}},
+                         'capture_block_easy_mc': {'score_txt': {'text': '$4'}}},
+              '_10_mc': {'attack_defend_2_mc': {'score_txt': {'text': '$5'}},
+                         'kill_7_7_mc': {'score_txt': {'text': '$28'}},
+                         'live_7_7_mc': {'score_txt': {'text': '$1'}}},
+              '_14_mc': {'extra_stone_9_9_mc': {'score_txt': {'text': '$74'}},
+                         'white_tiger_mc': {'score_txt': {'text': '$40'}}}}}

@@ -1,0 +1,12 @@
+>>> if True:
+...     print 1
+1
+>>> print 3
+>>> if True:
+...     print 1
+... else:  # if insert newline, complain about else on prompt1.
+...     print 2
+1
+>>> # pyshell barks invalid syntax if no empty dedented line after indent.
+>>> print 3
+3

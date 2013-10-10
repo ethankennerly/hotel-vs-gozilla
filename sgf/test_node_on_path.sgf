@@ -1,0 +1,150 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]PW[GNU Go Level 1]DT[2010-08-21]
+C[CAN YOU CLAIM ALL THE FARMS?
+{
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'show'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'score_5_5_3'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+]
+(;B[cc]C[PERFECT!  THE CENTER CLAIMS FOUR SIDES.];W[cb]
+C[DRAGON IS EATING OUR FARM!  CAN YOU RECLAIM ALL THE LAND?]
+(;B[bb];W[bc]C[DRAGONS ARE FIGHTING!  CAN YOU FIGHT BACK?]
+(;B[db];W[ab]C[OUR CASTLE NEEDS LAND.  CAN YOU MAKE LAND?]
+(;B[ca];W[ba]C[CAN YOU MAKE LAND FOR THE STARVING CASTLE?]
+(;B[cb];W[]C[DRAGON:  NO...  THE FARMS LOOK SO TASTY.])
+(;B[aa];W[]C[DRAGON:  GRR...  WE ARE DOOMED.  NEXT TIME, HUMAN!]))
+(;B[ba])
+(;B[aa]
+C[THE CORNER IS IN DANGER.  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[aa]
+C[THE DRAGON WILL CLAIM TOO MUCH.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[DRAGONS MAY SURROUND ONE OF US!  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[THE DRAGON HAS AN ESCAPE ROUTE.  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[bc]
+C[THIS IS SAFE, BUT LETS THE DRAGON CLAIM MORE.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'},
+}
+]
+)
+(;B[aa]
+C[THE CORNER IS NEARLY SURROUNDED.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[THE DRAGON WILL CUT THE CASTLES APART!  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[THE DRAGON CUTS THE CASTLES APART!  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+(;B[aa]
+C[A CORNER IS HALF-FROZEN.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[ANY SIDE CLAIMS FEW FARMS.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[ANY SIDE CLAIMS FEW FARMS.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[bb]
+C[THIS CASTLE ONLY CLAIMS ONE CORNER.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[cb]
+C[THIS CASTLE ONLY CLAIMS THREE SIDES.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE DRAGON WILL TAKE MORE.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

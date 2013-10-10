@@ -1,0 +1,1 @@
+{'level_mc': {'_txt': {'text': '50'}, 'progress_mc': {'currentLabel': '_43'}}}

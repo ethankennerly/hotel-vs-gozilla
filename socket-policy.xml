@@ -1,0 +1,5 @@
+<cross-domain-policy>
+  <site-control permitted-cross-domain-policies="all"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="8000" />
+  <allow-access-from domain="*.finegamedesign.com" to-ports="5900" />
+</cross-domain-policy>

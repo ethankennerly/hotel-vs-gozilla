@@ -1,0 +1,145 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-08-02]RE[B+7]
+AB[cc][bd][dd][bb]AW[ab][bc][cb][dc]
+C[SURROUND A DRAGON.
+{
+    #'tutor_mc': {'currentLabel': 'top_move_white'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'top_move_white'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B];AE[ab][bb]
+C[SURROUND A DRAGON.
+{
+    #'tutor_mc': {'currentLabel': 'top_move_white'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'top_move_white'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;AW[ae]
+C[DRAGON STRIKES CENTER! CAN YOU SURVIVE?
+{
+    #'tutor_mc': {'currentLabel': 'top_move_white'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'show'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'none'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        'mission_mc': {'currentLabel': 'top_move_white'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B];B[cd]C[GOOD! WATCH THE EGG HATCH.]SQ[ab];W[ab]
+C[DRAGON DEFENDS. CAN YOU SURROUND?];B[db]C[PERFECT TRAP! WATCH EGG.]
+(;W[ba]C[DRAGON DEFENDS CORNER.]
+(;B[ad]C[GREAT! NOW YOU CAN SURROUND 2 DRAGONS.];W[da]
+C[DRAGON STRIKES! DID YOU SEE THE EGG?];B[eb]
+C[CLEVER! YOU CAN SURROUND ANY ATTACKER.];W[ac]
+C[DID YOU SEE THE EGG? DRAGON DEFENDS CORNER.];B[ec]
+C[PERFECT! NOTHING MORE TO SURROUND.];W[ca])
+(;B[ec]C[GOOD! YOU SURROUNDED A DRAGON QUICKLY.];W[ad];B[be];W[ac];B[da];W[ca]
+))
+(;W[ba]))
+(;B[cd]C[GOOD.  AFTER BUILDING, THE EGG WILL HATCH.]
+(;W[ab]C[EGG HATCHED.];B[ac]
+C[EGG WILL HATCH AND SURROUND SIDE!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+LB[ac:BM];W[ad])
+(;W[ab]C[EGG HATCHED.];B[ac]))
+(;B[bb]
+C[EGG WILL HATCH AND SURROUND US!
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+LB[bb:BM])
+(;AW[be]PL[B];B[cd];W[ab];B[ad];W[db];B[ac];W[bb];B[ec];W[ed];B[ee];W[ce]))
