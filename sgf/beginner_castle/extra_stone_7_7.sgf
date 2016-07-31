@@ -1,0 +1,77 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]
+KM[0]DT[2010-04-29]
+ON[ANGRY DRAGONS WILL INVADE YOUR TOWN!
+
+TRAIN A SAINT!  BUILD TEMPLES THAT CONNECT INTO A MONASTERY.  SAINT WILL MAKE PEACE.]
+C[CAN ONE TEMPLE DEFEND ANY SIDE?
+
+{
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'extra_stone_defend_7_7'},
+        'extra_stone_available_mc': {'currentLabel': '_4'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[dd]C[TEMPLE RECRUITS AN ARCHITECT.
+{
+#'tutor_mc': {'currentLabel': 'question'}
+    }]
+ ;W[]C[TO BUILD TWICE, CLICK TWO HAMMERS. TRY NOW!
+ {
+#'tutor_mc': {'currentLabel': 'extra_stone'}
+     }]
+
+ ;B[]
+ ;W[]C[TO SURROUND MORE, BUILD TWICE EARLY.]
+ ;B[]
+ ;W[]C[
+ {
+#'tutor_mc': {'currentLabel': 'extra_stone_tip'}
+     }]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[CONNECT TEMPLES TO BECOME A MONASTERY.]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[IF NO CASTLE CAN PROFIT, CLICK PEACE.
+ {
+#'tutor_mc': {'currentLabel': 'none'}
+     }]
+)
+(;B[]C[UH OH, DRAGON WILL PUSH US OUT.
+{
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+)

@@ -1,0 +1,58 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-08-02]
+AB[bd][bc][cb][db][eb][ad][bb][ab][ac][da][ea][ca]
+AW[dc][cd][de][ed][cc][ec]
+ON[A DRAGON WILL STARVE OUR FORT!  AND BUILDING A CASTLE COSTS A FARM.
+
+TRAIN A PEACEMAKER!  TO MAKE PEACE, SURROUND THE MOST FARMS.]
+C[WHERE CAN YOU BUILD TO GET THE MOST FARMS?
+{
+    #'tutor_mc': {'currentLabel': 'score'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'score_rule_territory'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+PL[B]
+(;B[be]C[+3 BLUE FARMS 
+-2 RED DESERT 
+=1 GOLD]
+ ;W[]C[NOW BUILDING COSTS A BLUE FARM, SO CLICK PEACE.])
+(;B[]
+C[BLUE FARMS LESS THAN RED DESERT? WE LOSE.
+{
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+))
+

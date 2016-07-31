@@ -1,0 +1,61 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[3]
+KM[0]DT[2010-08-02]
+AB[ba][bc]AW[cb][ab]PL[B]
+ON[TWO DRAGONS WILL CUT OUR CASTLE APART.  TO STAY CONNECTED, WE NEED ROADS.
+
+YOU TRAINED COBBLERS! A COBBLER BUILDS ROADS BESIDE A CASTLE.]
+C[A ROAD IS A SAFE PLACE TO BUILD A WALL.
+{
+    #'tutor_mc': {'currentLabel': 'empty_block'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'none'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'},
+    },
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'none'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'none'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'dominate_rule_connect'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer'
+        } 
+    },
+}
+]
+(
+ ;B[bb]C[WALL CUTS DRAGONS APART!]
+ ;W[]C[CAN YOU SURROUND ALL DRAGONS?]
+ ;B[]
+ ;W[]C[
+ {
+#'tutor_mc': {'currentLabel': 'pass'}
+     }]
+)
+(;B[]
+C[OH NO, DRAGONS WILL CUT THE CASTLES APART!  
+{
+    #'tutor_mc': {'currentLabel': 'please_connect'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+)

@@ -1,0 +1,64 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-29]
+AB[ba][bb][bc][bd][be][de]AW[ca][cb][ce][cd]PL[B]
+ON[TWO DRAGONS INVADED OUR FARM!
+
+TRAIN A WRANGLER!  TO MAKE FARMLAND, A WRANGLER CUTS DRAGONS APART.]
+C[CAN YOU KEEP THE DRAGONS SEPARATED?
+{
+    #'tutor_mc': {'currentLabel': 'attack_profit'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'none'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'attack_profit'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[cc]C[PERFECT!  YOU CAN CORNER SEPARATE DRAGONS.
+{
+    #'tutor_mc': {'currentLabel': 'attack_profit'}
+    }]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[WHEN A NEW CASTLE CANNOT PROFIT, CLICK PEACE.
+ {
+#'tutor_mc': {'currentLabel': 'score_pass'}
+     }]
+)
+(;B[]C[THE DRAGONS WILL CONNECT AND BURN OUR FARM!
+{
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]))
+
+

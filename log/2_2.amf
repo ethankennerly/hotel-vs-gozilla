@@ -1,0 +1,51 @@
+
+/unconditional_status_mc
+currentLabel	noneterritory_mc
+	showlobby_mc
+_07_mc
+score_5_5_3_mc
+top_move_mc
+profit_mc
+critical_mc
+game_over_mc
+mission_mc
+	_txt
+	textÅ9YOUR NEW MANSION IS CATCHING FIRE!
+TO SAVE YOUR MANSION, SEPARATE THE FIRES AND CORNER THEM.opening_note1extra_stone_available_mc
+_0#white_computer_mc
+computer#hide_available_mc
+$preview_5_5_mc
+confirm_mc
+dispatchEventmouseDownconnected_mc
+turn_mc
+blackwhite_user_txt
+computer_ethanblack_user_txt
+ethancursor_mc
+act_mc
+	play:dead_mc
+sgf_path_txt
+[]decoration_mc
+extra_stone_mc
+	_5_5attack_mc
+hide_mc
+turn_veil_mc
+yousgf_file_txt
+9sgf/beginner/score_5_5_3.sgfdefend_mc
+option_mc
+!first_capture_mc
+score_mc
+%prohibit_danger_mc
+!computer_pass_mc
+empty_block_mc
+block_mc
+gibs_mc
+strike_mc
+comment_mc
+
+;CAN ONE PIPE SAVE FOUR SIDES?commentsuicide_mc
+title_mc
+username_txt
+Bslave_txt
+slavepassword_txt
+kennerlymaster_txt
+master

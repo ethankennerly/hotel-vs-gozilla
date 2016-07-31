@@ -5,6 +5,7 @@ Multiple user functions that are excluded from Flash client but needed by server
 '''
 __author__ = 'Ethan Kennerly'
 from super_user import *
+import configuration
 
 # single user-other algorithms
 
@@ -718,7 +719,7 @@ def _create_user(users, name, password, speed = 1):
     return users
 
 
-def setup_users(speed, setup_events = True):
+def setup_users(speed, setup_events = True, minimum = False):
     '''
     To be quicker, do not setup events.
     >>> users = setup_users(16.0, setup_events = False)
@@ -766,15 +767,37 @@ def setup_users(speed, setup_events = True):
     'lobby'
     '''
     users = {}
+    for number in range(0, configuration.guest_max):
+        name = 'guest%s' % number
+        users = _create_user(users, name, name, speed)
+    # setup template
+    template = user_class()
+    template.create(speed)
+#    template.setup_events()
+    template.root.title_mc.username_txt.text = 'template'
+    template.root.title_mc.password_txt.text = 'template'
+    template.users = users
+    users['template'] = template
     # setup ethan
     ethan = user_class()
     ethan.create(speed)
-#    ethan.setup_events()
     ethan.root.title_mc.username_txt.text = 'ethan'
     ethan.root.title_mc.password_txt.text = 'kennerly'
     ethan.root.level_mc._txt.text = '40'
     ethan.users = users
     users['ethan'] = ethan
+    if not minimum:
+        users = setup_users_all(users)
+    if setup_events:
+        already_set = []
+        for user in users.values():
+            if user not in already_set:
+                user.setup_events()
+                already_set.append(user)
+    return users
+
+
+def setup_users_all(users):
     # setup joris
     joris = user_class()
     joris.create(speed)
@@ -958,14 +981,6 @@ def setup_users(speed, setup_events = True):
     jonathan.root.title_mc.password_txt.text = 'zvesper'
     jonathan.users = users
     users['jonathan'] = jonathan
-    # setup template
-    template = user_class()
-    template.create(speed)
-#    template.setup_events()
-    template.root.title_mc.username_txt.text = 'template'
-    template.root.title_mc.password_txt.text = 'template'
-    template.users = users
-    users['template'] = template
     # setup temporary
     temporary = user_class()
     temporary.create(speed)
@@ -1007,15 +1022,9 @@ def setup_users(speed, setup_events = True):
     users = _create_user(users, 'wb2', 'weirdbeard2', speed)
     users = _create_user(users, 'jonghwa', 'kim', speed)
     users = _create_user(users, 'kevin', 'saunders', speed)
-    if setup_events:
-        already_set = []
-        for user in users.values():
-            if user not in already_set:
-                user.setup_events()
-                already_set.append(user)
+    users = _create_user(users, 'jennifer', 'russ', speed)
     return users
 
-    
 
 def authenticate_user(users, message):
     '''If name and password match, return globe of user.

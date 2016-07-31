@@ -1,0 +1,91 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-29]RE[B+1]
+AB[be][bc][ce][de][dc]AW[ab][bb][cb][db]
+ON[DRAGON IS EATING YOUR FARM.  AND SOLDIERS BUILT A SLOPPY WALL.
+
+TRAIN A PLANTER! A PLANTER CONNECTS A WALL AROUND FARMS.]
+C[CAN ONE CASTLE DEFEND MANY FARMS?
+{
+    #'tutor_mc': {'currentLabel': 'defend_profit'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'defend_profit'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+PL[B]
+(;B[cc]C[PERFECT! THIS CASTLE CONNECTS A WALL.];W[eb]
+C[5 RED DESERTS. WE NEED 6 BLUE FARMS.]SQ[aa][ca][da][ea][ba]
+(;B[ec]C[WALL KEEPS DRAGON OUT OF THIS SIDE.];W[ac]
+C[DRAGON CREEPS IN! WE NEED 5 FARMS.]
+(;B[ad]C[TOWER GUARDS CORNER. WE WIN BY ONE!];W[])
+(;B[]
+C[DRAGON WILL CREEP IN! TRY AGAIN.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+;W[bd]))
+(;B[ac]C[WALL KEEPS DRAGON OUT OF THIS SIDE.];W[ec]
+C[DRAGON CREEPS IN! WE NEED 5 FARMS.]
+(;B[ed]C[TOWER GUARDS CORNER. WE WIN BY ONE!];W[])
+(;B[]
+C[DRAGON WILL CREEP IN! TRY AGAIN.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[ed]))
+(;B[]
+C[DRAGON WILL CREEP IN! TRY AGAIN.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+;W[ac]))
+(;B[]
+C[DRAGON WILL CUT IN! TRY AGAIN.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[cc])
+(;B[ac]
+C[DRAGON WILL CUT IN! TRY AGAIN.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+SQ[cc];W[cc];B[cd];W[ad];B[bd];W[ec]))

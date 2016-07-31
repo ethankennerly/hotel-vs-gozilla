@@ -1,0 +1,15 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+;B[ba];W[cb];B[bb];W[cc];B[bc];W[cd];B[bd];W[ce];B[be];W[ca]
+;B[ac];W[ab]
+C[    unconditional_status A3
+    = alive
+
+    dragon_stones A3
+    = B5 B4 A3 B3 B2 B1
+            
+    unconditional_status A4
+    = dead
+
+    unconditional_status C3
+    = undecided]
+)

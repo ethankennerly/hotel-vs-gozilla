@@ -1,0 +1,38 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-22]RE[B+5]
+C[HELP!  WATCH...];B[cc]
+C[CHOCOLATE: BIG CUT!
+
+{
+    'territory_mc': {
+        'currentLabel': 'show'
+    },
+    'liberty_mc': {
+        'currentLabel': 'warn'
+    },
+    'profit_mc': {
+        'currentLabel': 'show'
+    },
+    'attack_mc': {
+        'currentLabel': 'show'
+    },
+    'defend_mc': {
+        'currentLabel': 'show'
+    },
+    'dead_mc': {
+        'currentLabel': 'show'
+    },
+}]
+;W[dc];B[cd];W[dd];B[ce]C[OOPS!  EDGE IS A SMALL CUT.];W[de];B[ca];W[da];B[bc]
+C[OOPS.  BLUE COULD CUT US UP ...];W[db]
+;B[ac];W[bb]
+C[HEY, THAT'S OUR SLICE!  WHERE DO WE DEFEND?
+
+{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+}]
+)

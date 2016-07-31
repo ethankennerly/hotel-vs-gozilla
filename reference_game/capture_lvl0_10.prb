@@ -1,0 +1,34 @@
+(;
+GM[1]FF[4]VW[]AP[Many Faces of Go:11.0]
+SZ[13]
+HA[0]
+ST[2]
+DT[2009-09-06]
+KM[5.5]
+RU[Japanese]
+AB[ad][bd][cd][ed][fd][fc][fb][fa]
+AW[de][df][dg][dc]
+C[White is trying to invade the yard that you are making.  Can \
+you protect your yard?]
+
+PL[B];B[dd]
+C[You did it!]
+
+TE[2])
+(;
+GM[1]FF[4]VW[]AP[Many Faces of Go:11.0]
+SZ[13]
+HA[0]
+ST[2]
+DT[2009-09-06]
+KM[5.5]
+RU[Japanese]
+AB[ed][fd][gd][cd]
+AW[da][db][dc][de][df][cf][bf][af]
+C[White is trying to build a yard.
+
+Can you break into the yard?]
+;B[dd]
+C[That's it!  Now white cannot build the yard.]
+
+TE[2])

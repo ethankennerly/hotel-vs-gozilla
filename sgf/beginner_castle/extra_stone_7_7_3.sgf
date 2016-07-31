@@ -1,0 +1,75 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[7]
+KM[0]DT[2010-04-29]
+ON[DRAGONS ARE INVADING A NEW TOWN.  HELP!
+
+TRAIN A MAYOR!  A MAYOR BUILDS PALACES THAT CONNECT INTO A CAPITAL OF A NEW TOWN.]
+C[CAN ONE PALACE DEFEND AND ATTACK ALL?
+
+{
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'show'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'gift'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'extra_stone_attack_defend_7_7'},
+        'extra_stone_available_mc': {'currentLabel': '_2'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[dd]C[PALACE RECRUITS AN ARCHITECT!
+{
+#'tutor_mc': {'currentLabel': 'question'}
+    }]
+ ;W[]C[TO BUILD TWICE, CLICK THE TWO HAMMERS.
+ {
+#'tutor_mc': {'currentLabel': 'extra_stone'}
+     }]
+ ;B[]
+ ;W[]C[TO SURROUND MORE, HIRE THE ARCHITECT EARLY.]
+ ;B[]
+ ;W[]C[
+ {
+#'tutor_mc': {'currentLabel': 'extra_stone_tip'}
+     }]
+ ;B[]
+ ;W[]C[CAN YOU UNITE YOUR PALACES INTO A CAPITAL?]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]
+ ;B[]
+ ;W[]C[IF NO CASTLE CAN PROFIT, CLICK PEACE.
+ {
+#'tutor_mc': {'currentLabel': 'none'}
+ }]
+)
+(;B[]C[UH OH, DRAGON WILL PUSH TO THE EDGE.
+     {
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}])
+)

@@ -1,0 +1,15 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-22]RE[B+5]
+C[I NEED YOUR HELP AGAIN.  WATCH.];B[cb]C[CHOCOLATE:  BIG SLICE!];W[bb]
+C[BLUE COULD HAVE CUT A BIGGER SLICE.];B[cd]C[WE CUT A BIG SLICE.];W[bd];B[ca]
+C[EDGES ARE SMALL, SO CUT EDGES LAST.];W[ba];B[ce];W[be];B[db]C[OOPS!];W[dc]
+C[BLUE IS MEAN!  WHERE CAN WE CUT A BIG SLICE?
+
+{ 
+    'game_over_mc': { 
+        'white_computer_mc': { 
+            'enter_mc': {'dispatchEvent': 'mouseDown'} 
+        } 
+    } 
+} ]
+)

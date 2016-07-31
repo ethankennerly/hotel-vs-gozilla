@@ -1,5 +1,12 @@
+<?xml version="1.0"?>
 <cross-domain-policy>
   <site-control permitted-cross-domain-policies="all"/>
-  <allow-access-from domain="*.finegamedesign.com" to-ports="8000" />
-  <allow-access-from domain="*.finegamedesign.com" to-ports="5900" />
+<allow-acces-from domain="*" secure="false"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="5900"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="8000"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="80"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="8080"/>
+  <allow-access-from domain="*.finegamedesign.com" to-ports="0-100000"/>
+  <allow-access-from domain="blooming-headland-35772.herokuapp.com" to-ports="0-100000"/>
+<allow-http-request-headers-from domain="*" headers="*"/>
 </cross-domain-policy>

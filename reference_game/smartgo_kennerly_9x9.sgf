@@ -1,0 +1,27 @@
+(;GM[1]FF[4]SZ[9]AP[SmartGo:2.8.3.0]
+PW[SmartGo]
+PB[<Your Name>]
+DT[2009-09-08]
+KM[6.5]
+RE[W+1.5]
+RU[Simple]
+TM[480.0]OT[20 / 5]
+GC[GenTopLevel = 44
+GenOtherLevel = 22
+]BL[480.0]OM[20]OP[300.0]WL[480.0]
+;B[ee]BL[479.7];W[ge]V[0.0]WL[479.9];B[dg]BL[472.8];W[ce]V[0.0]WL[479.8]
+;B[fc]BL[462.6];W[fg]V[0.0]WL[479.8];B[ff]BL[453.2];W[gg]V[-6.6]WL[452.9]
+;B[cc]BL[449.8];W[bg]V[4.9]WL[427.1];B[ch]BL[435.3];W[gc]V[-3.2]WL[407.4]
+;B[bd]BL[428.0];W[gb]V[-9.7]WL[392.7];B[fb]BL[420.6];W[fa]V[8.8]WL[366.7]
+;B[ea]BL[406.9];W[df]V[-7.4]WL[340.9];B[de]BL[382.2];W[cf]V[-7.8]WL[322.2]
+;B[ef]BL[348.3];W[eg]V[-11.1]WL[297.6];B[gf]BL[332.6];W[cg]V[-17.9]WL[273.3]
+;B[hg]BL[321.5];W[gh]V[4.0]WL[254.4];B[he]BL[300.1];W[be]V[10.9]WL[241.7]
+;B[cd]BL[291.3];W[da]V[13.0]WL[225.3];B[ga]BL[287.8];W[ha]V[13.0]WL[213.4]
+;B[hc]BL[275.1];W[hb]V[13.0]WL[188.6];B[gd]BL[270.0];W[ic]V[13.0]WL[176.5]
+;B[hd]BL[248.7];W[hh]V[6.3]WL[155.1];B[ih]BL[235.8];W[ae]V[9.4]WL[145.9]
+;B[ad]BL[231.9];W[hi]V[13.0]WL[128.2];B[ig]BL[225.0];W[dh]V[14.5]WL[119.0]
+;B[]BL[215.4];W[ii]V[12.5]WL[93.4];B[]BL[205.1];W[]V[12.5]WL[68.2];
+DS[da][ha:hb][gb:gc][ic][ge][ch]
+TB[aa:id][de:ie][ef:if][hg:ig][ih]
+TW[ae:ci][df:di][eg:gi][hh:hi][ii]V[12.5])
+

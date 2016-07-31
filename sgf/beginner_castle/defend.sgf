@@ -1,0 +1,61 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-29]
+AB[ac][bc][dc][ec]AW[ab][eb][bb][db][cb]PL[B]
+ON[A DRAGON IS SCARING OUR FARMERS!
+
+TRAIN MONKS!  IF YOUR CASTLE DEFENDS ANOTHER CASTLE, THEN MONKS BUILD A TEMPLE.]
+C[WHERE CAN YOU DEFEND YOUR FARMS?
+{
+    #'tutor_mc': {'currentLabel': 'black_defend'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'show'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'black_defend'},
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[cc]C[BECAUSE YOU DEFENDED, MONKS BUILD A TEMPLE.
+{
+#'tutor_mc': {'currentLabel': 'black_defend'}
+    }]
+
+ ;W[]C[IF NO NEW CASTLE CAN PROFIT, CLICK PEACE.
+ {
+#'tutor_mc': {'currentLabel': 'score_pass'}
+     }]
+)
+(;B[]C[THE DRAGON WILL CREEP INTO OUR FARM!
+{
+    
+    #'tutor_mc': {'currentLabel': 'small'},
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]))
+

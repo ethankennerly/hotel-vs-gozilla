@@ -1,0 +1,25 @@
+
+title_mc
+username_txt
+	textethanslave_txt
+slavepassword_txt
+kennerlymaster_txt
+masteroption_mc
+#hide_available_mc
+currentLabel_01extra_stone_available_mc
+score_mc
+	showsequence		
+time_txt
+20180cursor_mc
+act_mc
+	playblack
+$
+20680turn_veil_mc
+you
+$
+20805turn_mc
+.
+$
+21305game_over_mc
+	nonestart_mc
+>

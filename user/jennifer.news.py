@@ -1,0 +1,13 @@
+{'level_mc': {'_txt': {'text': '8'},
+              'currentLabel': 'up',
+              'progress_mc': {'currentLabel': '_0'}},
+ 'lobby_mc': {'_00_mc': {'capture_3_3_1_mc': {'score_txt': {'text': '$2'}},
+                         'capture_3_3_mc': {'score_txt': {'text': '$2'}},
+                         'capture_5_5_mc': {'score_txt': {'text': '$1'}},
+                         'capture_block_easy_mc': {'score_txt': {'text': '$4'}},
+                         'capture_block_mc': {'score_txt': {'text': '$2'}},
+                         'capture_corner_mc': {'score_txt': {'text': '$6'}},
+                         'capture_critical_mc': {'score_txt': {'text': '$1'}},
+                         'capture_rule_beside_mc': {'score_txt': {'text': '$1'}}},
+              '_07_mc': {'score_rule_mc': {'score_txt': {'text': '$3'}},
+                         'score_rule_territory_mc': {'score_txt': {'text': '$1'}}}}}

@@ -1,0 +1,84 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]DT[2010-04-29]
+AB[bd][cc]AW[bc][cd]PL[B]
+ON[DRAGONS ARE BURNING OUR VILLAGE!  AND EACH CASTLE COSTS A FARM.
+
+TRAIN A TRADER!  TO PROFIT FROM TRADE, SURROUND FARMS AND DRIVE THE DRAGON OUT.]
+C[CAN ONE CASTLE DRIVE THE DRAGONS OUT?
+{
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'none'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'none'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'score_5_5'},
+        'extra_stone_available_mc': {'currentLabel': '_1'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+
+]
+(;B[bb]C[PERFECT! YOU TRAPPED A DRAGON.]
+ ;W[]C[DRAGON TURNS LAND INTO RED DESERT.]
+ ;B[]
+ ;W[]C[EACH RED DESERT COSTS YOU -1 GOLD.]
+ ;B[]
+ ;W[]C[TO MAKE BLUE FARMS, SURROUND LAND.]
+ ;B[]
+ ;W[]C[EACH BLUE FARM EARNS YOU +1 GOLD.]
+ ;B[]
+ ;W[]C[ON THE BOTTOM RIGHT, YOU SCORE EACH GOLD.]
+ ;B[]
+ ;W[]C[EACH CASTLE COSTS YOU -1 GOLD.
+    {'option_mc': {
+        'computer_pass_mc': {'currentLabel': 'show'}}}
+        ]
+ ;B[]
+ ;W[]C[SO WHEN FARMS ARE SAFE, PEACE SAVES GOLD.]
+)
+(;B[dd]C[PERFECT! YOU TRAPPED A DRAGON.]
+ ;W[]C[DRAGON TURNS LAND INTO RED DESERT.]
+ ;B[]
+ ;W[]C[EACH RED DESERT COSTS YOU -1 GOLD.]
+ ;B[]
+ ;W[]C[TO MAKE BLUE FARMS, SURROUND LAND.]
+ ;B[]
+ ;W[]C[EACH BLUE FARM EARNS YOU +1 GOLD.]
+ ;B[]
+ ;W[]C[ON THE BOTTOM RIGHT, YOU SCORE EACH GOLD.]
+ ;B[]
+ ;W[]C[EACH CASTLE COSTS YOU -1 GOLD.
+    {'option_mc': {
+        'computer_pass_mc': {'currentLabel': 'show'}}}
+        ]
+ ;B[]
+ ;W[]C[SO WHEN FARMS ARE SAFE, PEACE SAVES GOLD.]
+)
+(;B[]C[TO PROFIT MORE, TRY AGAIN.
+{
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]))

@@ -1,0 +1,6 @@
+# At 4:48 AM, kill ALL python jobs.
+# At 4:44 AM, shutdown the UNIX server.
+# Every 5th minute, restart the Hotel vs Gozilla server if it is not running.
+48 4 * * * cd /root && bash restart.sh >> /root/restart.log
+44 4 * * * /sbin/shutdown -r +2
+*/5 * * * * cd /root && bash restart_if_needed.sh >> /root/restart.log

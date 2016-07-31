@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -A | grep ' python' | gawk '{print $1}'
+ps -a | grep ' python' | gawk '{print $1}'

@@ -1,0 +1,17 @@
+(;GM[1]FF[4]SZ[9]AP[SmartGo:2.8.3.0]
+PW[<Your Name>]
+PB[<Your Name>]
+DT[2009-09-08]
+KM[6.5]
+RU[Simple]VW[aa:ee];B[cc];W[bd]TR[bd];B[bc];W[db];B[dc];W[cd];B[dd];W[cb]
+;B[bb]VW[];W[ba];B[eb];W[de];B[ed];W[ac];B[ab]VW[aa:ee]
+C[White resigns 5x5 game.  Could continue until total capture.];W[be];B[ee]
+;W[da];B[ad];W[ca];B[aa];W[ce];B[ea];W[if];
+AB[ae]
+AE[bd:ce][de][if]VW[];B[gg];W[ff];B[cg];W[gf];B[eg];W[fg];B[ef];W[gh];B[hg]
+TR[hg];W[hf];B[hh];W[fh];B[gi]
+(;W[fi];B[eh];W[ei];B[di];W[dh];B[ci];W[ch]TR[ch];B[bh];W[bi];B[ai];W[ah]
+;B[bg];W[gc];B[ag]TR[bh];W[fc];B[fd];W[gd];B[ge];W[he];B[fe];W[fb];B[fa]
+;W[ga];B[ec];W[dg];B[df])
+(;W[eh]))
+

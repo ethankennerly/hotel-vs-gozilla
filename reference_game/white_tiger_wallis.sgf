@@ -1,0 +1,61 @@
+(;
+GM[1]FF[4]VW[]AP[Many Faces of Go:11.0]
+SZ[9]
+HA[4]
+ST[1]
+DT[2009-09-04]
+KM[0.0]
+RU[Japanese]
+AB[cg][gc][cc][gg];W[tt];B[dc];W[ei];B[fc];W[dh];B[cf];W[fh]
+C[White tiger appears at E1.]
+;B[gf]
+;W[ef]
+C[starting configuration.]
+;B[eg]
+C[Mirror b-D3, b-F3]
+;W[fg];B[dg];W[ff];B[fe];W[ee]
+;B[ce]
+C[Black helps connect C5 and C7.
+
+:( -20p.  Black does not see threat of house with 2 liberties \
+being turned into house with one liberty at F5.]
+LB[fe::(][ce::)][cc::)]
+
+;W[ge]
+C[danger at F5]
+LB[fe::(]
+;B[fd]
+C[:) Black connects.]
+LB[fd::)]
+;W[he];B[hd]
+C[:)  Black reduces liberties of G5.]
+LB[he::(][hd::)]
+;W[hg]
+C[capture race]
+
+;B[hf]
+C[:( black continues capture race that he will lose, because in \
+the capture race, reducing by one road each turn, white has first \
+turn.]
+LB[hf::(]
+;W[if];B[gh];W[hh];B[cd]
+C[Connects.  Safe.
+
+
+:(  -4p.  Too secure.]
+LB[cd::)]
+;W[ed];B[eb]
+C[:(  -4p Rather connect.]
+LB[eb::(]
+;W[ec];B[ch]
+;W[fb];B[gb]
+C[:) strike on second line.]
+LB[gb::)]
+;W[fa];B[ea];W[ga];B[bb];W[ha];B[hb];W[db]
+C[:(  black did not see that F8 mansion may be demolished.]
+;B[ia]
+;W[ci];B[bh];W[bi];B[ag]
+C[:( black does not see connection is safe at A2.]
+;W[eh];B[ah];W[di];B[ai];W[id];B[hc]
+;W[ic];B[ib];W[ie];B[gd];W[gi]
+)

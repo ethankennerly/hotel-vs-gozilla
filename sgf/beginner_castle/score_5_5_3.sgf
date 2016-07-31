@@ -1,0 +1,212 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+KM[0]PW[GNU Go Level 1]DT[2010-08-21]
+ON[DRAGONS ARE INVADING YOUR NEW VILLAGE.
+
+TRAIN A BARON!  TO START A PROFITABLE VILLAGE, A BARON PLANTS FARMS AND WRANGLES DRAGONS.]
+C[TO CLAIM ALL LAND, WHERE TO START?
+{
+    #'tutor_mc': {'currentLabel': 'center'},
+
+    'option_mc': {
+        'gibs_mc': {'currentLabel': 'show'},
+        'prohibit_danger_mc': {'currentLabel': 'show'},
+        'empty_block_mc': {'currentLabel': 'none'},
+        'block_mc': {'currentLabel': 'show'},
+        'score_mc': {'currentLabel': 'show'},
+        'first_capture_mc': {'currentLabel': 'none'},
+        'computer_pass_mc': {'currentLabel': 'show'}},
+    'suicide_mc': {'currentLabel': 'none'},
+    'territory_mc': {'currentLabel': 'show'},
+    'strike_mc': {'currentLabel': 'show'},
+    'profit_mc': {'currentLabel': 'show'},
+    'dead_mc': {'currentLabel': 'show'},
+    'defend_mc': {'currentLabel': 'none'},
+    'attack_mc': {'currentLabel': 'none'},
+    'top_move_mc': {'currentLabel': 'show'},
+    'decoration_mc': {'currentLabel': 'show'},
+    'critical_mc': {'currentLabel': 'show'},
+    'unconditional_status_mc': {'currentLabel': 'none'},
+    'connected_mc': {'currentLabel': 'show'},
+    'extra_stone_mc': {'currentLabel': 'none'},
+    'hide_mc': {'currentLabel': 'none'},
+    'game_over_mc': { 
+        #'mission_mc': {'currentLabel': 'score_5_5_3'},
+        'extra_stone_available_mc': {'currentLabel': '_0'},
+        'hide_available_mc': {'currentLabel': '_0'},
+        'white_computer_mc': { 
+            'currentLabel': 'computer' 
+        } 
+    },
+}
+]
+(;B[cc]C[PERFECT!  THE CENTER CLAIMS FOUR SIDES.];W[cb]
+C[DRAGON IS EATING OUR FARM!  CAN YOU RECLAIM ALL THE LAND?]
+(;B[bb]C[TWO CASTLES BOLDLY PUSH THE DRAGON TO THE EDGE.];W[bc]
+C[DRAGONS ARE FIGHTING!  CAN YOU FIGHT BACK?]
+(;B[db]C[YOU TRAPPED A DRAGON AGAINST THE EDGE! ];W[ab]
+C[OUR CASTLE NEEDS LAND.  CAN YOU MAKE LAND?]
+(;B[ca]C[TWO LANDS FEED THE CORNER CASTLE, FOR NOW...];W[ba]
+C[CAN YOU MAKE LAND FOR THE STARVING CASTLE?]
+(;B[cb]C[FOUR LANDS FEED THE UNITED CASTLE.];W[]
+C[DRAGON:  NO...  THE FARMS LOOK SO TASTY.])
+(;B[aa]C[THE DRAGON CANNOT STRIKE BACK JUST YET.];W[]
+C[DRAGON:  GRR...  WE ARE DOOMED.  NEXT TIME, HUMAN!])
+(;B[]
+C[THE DRAGON WILL EAT OUR CASTLE.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[ba]C[TWO LANDS FEED, WHILE YOU GUARD THE CORNER.];W[dc]
+(;B[cd]C[YOU TOUCH THREE LAND AND CUT THE DRAGONS APART!];W[bd]
+(;B[dd]C[THREE LANDS FEED THE CASTLE, AND YOU TRAP A DRAGON!])
+(;B[ca]C[THE DRAGONS WILL TRY TO CONNECT.];W[dd];B[be];W[])
+(;B[be]C[THE DRAGONS WILL TRY TO EAT YOU.];W[dd])
+(;B[ce]C[THE DRAGONS WILL TRY TO EAT YOU.];W[dd]
+C[THE DRAGONS WILL TRY TO EAT YOU.];B[be];W[])
+(;B[]
+C[CAN YOU PREVENT THE DRAGONS FROM BULLYING YOU?
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[]
+C[DRAGONS WILL EAT THE CENTER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[THE DRAGON WILL EAT THE CORNER.  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE DRAGON WILL EAT THE CORNER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[THE DRAGONS WILL SURROUND THAT CORNER.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[DRAGONS MAY SURROUND ONE OF US!  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[THE DRAGON HAS AN ESCAPE ROUTE.  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[dc]
+C[THE DRAGONS WILL EAT THE CORNER.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[]
+C[THE DRAGONS WILL EAT THE CORNER.  SAVE US!
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+)
+(;B[bd]
+C[GREAT! MAKE THIS SAME PATTERN FACING THE OTHER WAY.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[bc]
+C[THIS IS SAFE, BUT LETS THE DRAGON SURROUND LAND.
+
+{
+    'bad_move_mc': {'currentLabel': 'show'},
+}
+]
+)
+(;B[aa]
+C[THE CORNER IS NEARLY SURROUNDED.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[THE DRAGON WILL CUT THE CASTLES APART!  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[THE DRAGON CUTS THE CASTLES APART!  EXPLORE MORE.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE DRAGON WILL TAKE MORE.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))
+(;B[aa]
+C[A CORNER IS HALF-FROZEN.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ba]
+C[ANY SIDE CLAIMS FEW FARMS.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[ca]
+C[ANY SIDE CLAIMS FEW FARMS.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[bb]
+C[THIS CASTLE ONLY CLAIMS ONE CORNER.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[cb]
+C[THIS CASTLE ONLY CLAIMS THREE SIDES.  EXPLORE MORE.
+
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}
+]
+)
+(;B[]
+C[THE DRAGON WILL TAKE LAND.  EXPLORE AGAIN.
+{ 
+    'bad_move_mc': {'currentLabel': 'show'}, 
+}]
+))

@@ -1,0 +1,24 @@
+
+title_mc
+username_txt
+	texttemporaryslave_txt
+slavepassword_txt
+master_txt
+mastersequence		
+time_txt
+29587cursor_mc
+act_mc
+currentLabel	playblack
+
+30087turn_veil_mc
+you
+
+30212turn_mc
+ 
+
+30712game_over_mc
+	nonestart_mc
+0option_mc
+#hide_available_mc
+_01extra_stone_available_mc
+8

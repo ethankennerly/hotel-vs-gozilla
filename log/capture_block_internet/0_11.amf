@@ -1,0 +1,55 @@
+
+/unconditional_status_mc
+currentLabel	noneterritory_mc
+lobby_mc
+_00_mc
+!capture_block_mc
+top_move_mc
+profit_mc
+critical_mc
+game_over_mc
+previewmission_mc
+	_txt
+	textÅQWHEN A FIRE TOUCHES YOU, IT BURNS.  IF THE FIRE SURROUNDS YOU, YOU DIE.
+
+TO PUT OUT A FIRE, SURROUND IT.opening_note_3_3_mc
+confirm_mc
+dispatchEventmouseDown#white_computer_mc
+computer#hide_available_mc
+_01extra_stone_available_mc
+0connected_mc
+	showturn_mc
+blackwhite_user_txt
+%computer_temporaryblack_user_txt
+temporarycursor_mc
+act_mc
+	play:dead_mc
+sgf_path_txt
+[]decoration_mc
+extra_stone_mc
+	_3_3attack_mc
+_1_1_mc
+:block_north_mc
+black_blockturn_veil_mc
+yousgf_file_txt
+=sgf/beginner/capture_block.sgfdefend_mc
+option_mc
+!first_capture_mc
+6score_mc
+%prohibit_danger_mc
+6!computer_pass_mc
+empty_block_mc
+block_mc
+6gibs_mc
+6strike_mc
+6comment_mc
+
+UFIRE BURNS!  WHERE IS SAFE?  CLICK A ROOM.commentsuicide_mc
+_0_1_mc
+whitetitle_mc
+username_txt
+Bslave_txt
+slavepassword_txt
+Bmaster_txt
+masterhide_mc
+

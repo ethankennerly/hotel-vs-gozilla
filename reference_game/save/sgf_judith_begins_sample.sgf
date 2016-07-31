@@ -1,0 +1,10 @@
+(;FF[4]CA[UTF-8]AP[GoGui:1.1.10]SZ[5]
+;B[cc];W[dc];B[cd];W[cb];B[bc]MA[bb][ba]CR[bd];W[bb]MA[ba]CR[bd];B[dd];W[da];
+B[ec]
+LB[da:formation_diagonal_attack formation_jump formation_jump_attack formation_jump formation_knight formation_knight]
+;W[eb]
+;B[db];W[ac];B[ad];W[dc]
+(;B[de];W[ed]TR[be][cd][dd][cc][bc][ad][de]LB[ad:2][ed:2][ac:1][dc:2];B[ab];
+W[be])
+(;B[ab])
+(;B[ed]))
